@@ -20,7 +20,9 @@ int main()
 {
 	int A = 3;
 	int B = 4;
+	int* PA = &A;
 
+	cout << PA << endl;
 	cout << &A << endl;
 
 	Swap(&A, &B);
